@@ -1,0 +1,50 @@
+:root {
+  --gold: #b98a3e;
+  --gold-light: #e6cc8f;
+  --gold-dark: #8a6224;
+  --ink: #2a1c10;
+  --ivory: #f4ecdd;
+  --emerald: #1f4d46;
+  --serif: "Cormorant Garamond", "Noto Serif", "FreeSerif", serif;
+  --sans: "Jost", "Noto Sans", "FreeSans", sans-serif;
+  --bn: "Noto Sans Bengali", "Hind Siliguri", "Lohit Bengali", "FreeSans", sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: #efe4cf; }
+#stage {
+  position: relative; width: 1080px; height: 1920px; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 40%, #fbf6ec 0%, #f2e8d4 55%, #e2d1ae 100%);
+  color: var(--ink); font-family: var(--sans);
+}
+.layer { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+.abs { position: absolute; }
+.center { left: 0; width: 1080px; text-align: center; }
+
+/* ছবি */
+#bottle { position: absolute; left: 0; top: 0; width: 1000px; height: 1000px; mix-blend-mode: multiply; transform-origin: 50% 50%; will-change: transform;
+  -webkit-mask-image: radial-gradient(circle closest-side, #000 84%, transparent 100%); mask-image: radial-gradient(circle closest-side, #000 84%, transparent 100%); }
+#bottle img { width: 1000px; height: 1000px; display: block; }
+
+/* টেক্সট */
+.serif { font-family: var(--serif); font-weight: 700; }
+.sans { font-family: var(--sans); font-weight: 500; }
+.bn { font-family: var(--bn); }
+.gold { color: var(--gold-dark); }
+.upper { text-transform: uppercase; }
+.nowrap { white-space: nowrap; }
+
+.chip {
+  position: absolute; display: flex; align-items: center; gap: 16px;
+  padding: 14px 30px 14px 20px; border-radius: 60px; white-space: nowrap;
+  background: rgba(255, 252, 245, 0.82); border: 2px solid rgba(185, 138, 62, 0.85);
+  box-shadow: 0 10px 28px rgba(80, 50, 10, 0.16), inset 0 0 0 4px rgba(255, 255, 255, 0.5);
+  font-family: var(--sans); font-weight: 600; font-size: 38px; letter-spacing: 1px; color: var(--ink);
+}
+.chip .dot { width: 34px; height: 34px; border-radius: 50%; flex: none; box-shadow: inset 0 -4px 8px rgba(0,0,0,0.22), inset 0 3px 6px rgba(255,255,255,0.55), 0 0 0 3px rgba(255,255,255,0.8), 0 0 0 4.5px rgba(185,138,62,0.55); }
+
+.cap {
+  position: absolute; left: 60px; width: 960px; top: 1380px; height: 200px;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font-family: var(--bn); font-weight: 700; font-size: 56px; line-height: 1.5; color: var(--ink);
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.85), 0 0 18px rgba(255, 250, 238, 0.95), 0 0 34px rgba(255, 250, 238, 0.9);
+}
