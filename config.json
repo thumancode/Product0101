@@ -1,14 +1,14 @@
 {
-  "brand": "Elence Fragrance",
+  "brand": "MUN Alert",
   "presenter": "Rizwan Talks",
-  "productName": "Blueberry Musk",
-  "productSubtitle": "Perfume Oil",
-  "website": "elencefragrance.com",
+  "productName": "Babuni",
+  "productSubtitle": "Missing Child",
+  "website": "munalert.org",
   "sync": "srt",
   "bgmVolume": 0.16,
-  "audio": "BlueberryMusk.mp3",
-  "srt": "BlueberryMusk.srt",
-  "image": "BlueberryMusk.webp",
+  "audio": "MissingChildAlert.wav",
+  "srt": "MissingChildAlert.srt",
+  "image": "MissingChildAlert.jpg",
   "scenes": [
     {
       "type": "intro"
@@ -16,139 +16,170 @@
     {
       "type": "traits",
       "start": {
-        "text": "আজকে"
+        "text": "আজকের বিষয়টি"
       },
-      "heading": "The Vibe",
-      "bn": "ভাইব",
+      "heading": "Today's Topic",
+      "bn": "আজকের বিষয়",
       "items": [
         {
-          "label": "Sweet",
-          "bn": "মিষ্টি"
+          "label": "Child Safety",
+          "bn": "নিরাপত্তা"
         },
         {
-          "label": "Fruity",
-          "bn": "ফ্রুটি"
+          "label": "Family's Worry",
+          "bn": "দুশ্চিন্তা"
         },
         {
-          "label": "Soft",
-          "bn": "সফট"
-        },
-        {
-          "label": "Musky",
-          "bn": "মাস্কি"
+          "label": "Human Duty",
+          "bn": "মানবিক দায়িত্ব"
         }
       ]
     },
     {
+      "type": "statement",
+      "start": {
+        "cue": 8
+      },
+      "text": "MUN Alert-এর প্রকাশিত বিজ্ঞপ্তি"
+    },
+    {
       "type": "title",
       "start": {
-        "text": "প্রোডাক্টটির নাম"
+        "cue": 9
       },
+      "kicker": "published a missing child notice",
       "revealAt": {
-        "text": "Blueberry Musk"
+        "text": "বাবুনী"
       }
     },
     {
-      "type": "blend",
+      "type": "statement",
       "start": {
-        "text": "নাম শুনেই"
+        "cue": 13
       },
-      "title": "Blueberry",
-      "meaning": "Sweet Blueberry Aroma",
-      "accords": "A key role in the scent",
-      "meaningAt": {
-        "text": "ব্লুবেরির"
-      },
-      "accordsAt": {
-        "text": "গুরুত্বপূর্ণ"
-      }
+      "text": "গাজীপুর — পঁয়ত্রিশ নম্বর ওয়ার্ড"
     },
     {
-      "type": "family",
+      "type": "statement",
       "start": {
-        "text": "প্রোফাইলে"
+        "text": "শিশুটি বিশেষ"
       },
-      "heading": "Scent Profile",
-      "bn": "ফ্র্যাগরেন্স প্রোফাইল",
+      "text": "বিশেষ চাহিদাসম্পন্ন"
+    },
+    {
+      "type": "character",
+      "start": {
+        "cue": 17
+      },
+      "heading": "Very Important",
+      "bn": "অত্যন্ত গুরুত্বপূর্ণ",
       "items": [
         {
-          "label": "Blueberry",
-          "bn": "ব্লুবেরি",
-          "color": "#4b5bb0"
+          "label": "Awareness",
+          "bn": "সচেতনতা"
         },
         {
-          "label": "Wild Berry",
-          "bn": "ওয়াইল্ড",
-          "color": "#8c2f5d"
+          "label": "Cooperation",
+          "bn": "সহযোগিতা"
+        }
+      ]
+    },
+    {
+      "type": "occasions",
+      "start": {
+        "cue": 19
+      },
+      "heading": "If You Are Nearby",
+      "bn": "ওই এলাকার আশপাশে",
+      "items": [
+        {
+          "label": "Look at the Poster",
+          "bn": "ভালোভাবে দেখুন"
         },
         {
-          "label": "Floral",
-          "bn": "ফুলেল",
-          "color": "#e3a1be"
+          "label": "Recognize the Child",
+          "bn": "চিনতে পারলে"
         },
         {
-          "label": "Vanilla",
-          "bn": "ভ্যানিলার",
-          "color": "#f0dba2"
+          "label": "Reliable Information",
+          "bn": "নির্ভরযোগ্য তথ্য"
         },
         {
-          "label": "White Musk",
-          "bn": "হোয়াইট মাস্ক",
-          "color": "#efe7d8"
+          "label": "Inform the Authorities",
+          "bn": "কর্তৃপক্ষকে জানান"
+        }
+      ]
+    },
+    {
+      "type": "occasions",
+      "start": {
+        "cue": 24
+      },
+      "heading": "Contact",
+      "bn": "জরুরি যোগাযোগ",
+      "items": [
+        {
+          "label": "Call 13219",
+          "bn": "এক তিন দুই এক নয়"
+        },
+        {
+          "label": "Report at munalert.org",
+          "bn": "munalert.org"
+        }
+      ]
+    },
+    {
+      "type": "traits",
+      "start": {
+        "cue": 28
+      },
+      "heading": "Before You Share",
+      "bn": "শেয়ার করার সময়",
+      "items": [
+        {
+          "label": "Verify First",
+          "bn": "যাচাই"
+        },
+        {
+          "label": "Child's Safety",
+          "bn": "নিরাপত্তা"
+        },
+        {
+          "label": "Family's Privacy",
+          "bn": "গোপনীয়তা"
         }
       ]
     },
     {
       "type": "character",
       "start": {
-        "text": "আপনি যদি"
+        "cue": 32
       },
-      "heading": "If You Like",
-      "bn": "মিষ্টি, সফট আর ফ্রুটি",
+      "heading": "How You Can Help",
+      "bn": "খুঁজে পেতে সাহায্য",
       "items": [
         {
-          "label": "Sweet",
-          "bn": "মিষ্টি"
+          "label": "Aware Share",
+          "bn": "সচেতন শেয়ার"
         },
         {
-          "label": "Soft",
-          "bn": "সফট"
+          "label": "Right Info",
+          "bn": "সঠিক তথ্য"
         },
         {
-          "label": "Fruity",
-          "bn": "ফ্রুটি"
+          "label": "Phone Call",
+          "bn": "ফোনকল"
         }
       ]
     },
     {
-      "type": "statement",
-      "start": {
-        "text": "আর সবচেয়ে"
-      },
-      "text": "মাত্র ২৫০ টাকা থেকে শুরু"
-    },
-    {
-      "type": "statement",
-      "start": {
-        "text": "তবে কেনার"
-      },
-      "text": "সাইজ ও বর্তমান দাম ওয়েবসাইটে দেখে নিন"
-    },
-    {
-      "type": "statement",
-      "start": {
-        "text": "আর আপনারা"
-      },
-      "text": "ফ্রুটি নাকি উডি?"
-    },
-    {
       "type": "cta",
       "start": {
-        "text": "আপনারা দেখছেন"
+        "cue": 35
       },
-      "headline": "Order Now",
-      "line": "Details on our website",
-      "button": "Order from the website"
+      "headline": "Help Find Babuni",
+      "line": "Call 13219",
+      "button": "Report at munalert.org"
     }
   ]
 }
