@@ -50,13 +50,15 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: video-${{ github.run_number }}
-          path: out/*.mp4
+          path: |
+            out/*.mp4
+            out/*.srt
           retention-days: 30
 
       - name: Publish to Releases (easy download link)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "video-${{ github.run_number }}" out/*.mp4 \
+          gh release create "video-${{ github.run_number }}" out/*.mp4 out/*.srt \
             --title "Video #${{ github.run_number }}" \
             --notes "Rendered by GitHub Actions (quality: ${{ inputs.quality }})."
