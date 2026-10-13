@@ -253,6 +253,12 @@ def main():
     else:
         parts, info = align.align_phrases(parts, audio, D)
         print(f"সিঙ্ক: অডিও বিরতি দেখে মেলানো হয়েছে (অডিও {D:.1f}s, SRT শেষ {cues[-1]['end']:.1f}s, বিরতি {info['pauses']}টি)")
+    # ছোট হাতে-সূক্ষ্ম সমন্বয়: syncOffset সেকেন্ডে (ঋণাত্মক = ক্যাপশন আগে, ধনাত্মক = পরে)
+    off = float(cfg.get("syncOffset", 0.0))
+    if off:
+        for p in parts:
+            p["start"] = min(max(0.0, p["start"] + off), D)
+            p["end"] = min(max(p["start"] + 0.05, p["end"] + off), D)
     captions = align.merge_captions(parts)
 
     if "scenes" not in cfg:
@@ -268,6 +274,10 @@ def main():
             "website": "", "kicker": "", "theme": {},
         }.items()
     }
+    srt_out = os.path.join(build, "captions_synced.srt")
+    with open(srt_out, "w", encoding="utf-8") as f:
+        for n_, c in enumerate(tl["captions"], 1):
+            f.write(f"{n_}\n{align.fmt_srt(c['start'])} --> {align.fmt_srt(c['end'])}\n{c['text']}\n\n")
     prep_image(image, os.path.join(build, "product.png"))
     ext = ".png"
     tl["image"] = "product.png"
@@ -316,6 +326,7 @@ def main():
         check=True,
     )
     shutil.rmtree(frames_dir, ignore_errors=True)
+    shutil.copy(srt_out, os.path.splitext(out)[0] + ".srt")  # অডিওর সাথে মেলানো নতুন SRT
     print(f"তৈরি: {out} ({os.path.getsize(out) / 1e6:.1f} MB)")
 
 
