@@ -1,0 +1,99 @@
+{
+  "brand": "Elence Fragrance",
+  "presenter": "Rizwan Talks",
+  "productName": "Mukhallat Al Emirates",
+  "productSubtitle": "Perfume Oil",
+  "website": "elencefragrance.com",
+  "sync": "auto",
+  "bgmVolume": 0.16,
+
+  "scenes": [
+    { "type": "intro" },
+
+    { "type": "title", "start": { "cue": 2 },
+      "revealAt": { "text": "মুখল্লাত আল আমিরাত" } },
+
+    { "type": "blend", "start": { "cue": 3 },
+      "title": "Mukhallat",
+      "meaning": "Traditional Arabian Art",
+      "accords": "A blend of premium accords",
+      "meaningAt": { "text": "ট্রেডিশনাল" },
+      "accordsAt": { "text": "অনেকগুলো" } },
+
+    { "type": "traits", "start": { "cue": 4 },
+      "heading": "The Profile", "bn": "পারফিউমের প্রোফাইল",
+      "items": [
+        { "label": "Rich", "bn": "রিচ" },
+        { "label": "Regal", "bn": "রিগাল" },
+        { "label": "Thick", "bn": "থিক" },
+        { "label": "Warm", "bn": "ওয়ার্ম" },
+        { "label": "Long-lasting", "bn": "লং-লাস্টিং" },
+        { "label": "Unisex", "bn": "ইউনিসেক্স" }
+      ] },
+
+    { "type": "notes", "start": { "cue": 5 }, "level": "top",
+      "heading": "Top Notes", "bn": "টপ নোটস",
+      "items": [
+        { "label": "Lemon", "bn": "লেমন", "color": "#f0d22e" },
+        { "label": "Bergamot", "bn": "বার্গামেট", "color": "#a9c24a" },
+        { "label": "Herbal Notes", "bn": "হার্বাল", "color": "#5f9a6a" },
+        { "label": "Warm Spices", "bn": "ওয়ার্ম স্পাইসেস", "color": "#c8672a" }
+      ] },
+
+    { "type": "notes", "start": { "cue": 6 }, "level": "heart",
+      "heading": "Heart Notes", "bn": "হার্ট নোটস",
+      "items": [
+        { "label": "Taif Rose", "bn": "তাইফ রোজ", "color": "#d6587f" },
+        { "label": "Cinnamon", "bn": "সিনামন", "color": "#a4532a" },
+        { "label": "Lavender", "bn": "ল্যাভেন্ডার", "color": "#8f7bc4" },
+        { "label": "Galbanum", "bn": "গ্যালবানাম", "color": "#6f9154" }
+      ] },
+
+    { "type": "notes", "start": { "cue": 7 }, "level": "base",
+      "heading": "Base Notes", "bn": "বেইস নোটস",
+      "items": [
+        { "label": "Dehnal Oud", "bn": "দেহেনা উদ", "color": "#4a2c1a" },
+        { "label": "Amber", "bn": "অ্যাম্বার", "color": "#d38a1c" },
+        { "label": "White Musk", "bn": "হোয়াইট মাস্ক", "color": "#efe7d8" },
+        { "label": "Sandalwood", "bn": "স্যান্ডেলউড", "color": "#b98a5e" },
+        { "label": "Vanilla", "bn": "ভেনিলা", "color": "#f0dba2" },
+        { "label": "Chocolate", "bn": "চকোলেট", "color": "#5a3320" }
+      ] },
+
+    { "type": "family", "start": { "cue": 8 },
+      "heading": "Scent Family", "bn": "সেন্ট ফ্যামিলি",
+      "items": [
+        { "label": "Oriental", "bn": "ওরিয়েন্টাল", "color": "#b8782a" },
+        { "label": "Oud", "bn": "ওড", "color": "#4a2c1a" },
+        { "label": "Floral", "bn": "ফ্লোরাল", "color": "#c9577d" },
+        { "label": "Spicy", "bn": "স্পাইসি", "color": "#b8481f" },
+        { "label": "Woody", "bn": "উডি", "color": "#7a5a37" }
+      ] },
+
+    { "type": "character", "start": { "text": "ক্যারেক্টার" },
+      "heading": "Character", "bn": "ক্যারেক্টার",
+      "items": [
+        { "label": "Rich", "bn": "রিচ" },
+        { "label": "Regal", "bn": "রিগাল" },
+        { "label": "Warm", "bn": "ওয়ার্ম" },
+        { "label": "Deep", "bn": "ডিপ" },
+        { "label": "Luxurious", "bn": "লাক্সরিয়াস" }
+      ] },
+
+    { "type": "occasions", "start": { "text": "আইডিয়াল" },
+      "heading": "Ideal For", "bn": "যাদের জন্য আইডিয়াল",
+      "items": [
+        { "label": "Formal Occasions", "bn": "ফরমাল অকেশনস" },
+        { "label": "Evening Wear", "bn": "ইভিনিং ওয়্যার" },
+        { "label": "Special Events", "bn": "স্পেশাল ইভেন্টস" },
+        { "label": "Traditional Gatherings", "bn": "ট্রেডিশনাল গ্যাদারিংস" },
+        { "label": "Winter", "bn": "উইন্টার" },
+        { "label": "Oud Lovers", "bn": "ওড লাভার্স" }
+      ] },
+
+    { "type": "cta", "start": { "cue": 10 },
+      "headline": "Order Now",
+      "line": "Available on our website",
+      "button": "Order from the website" }
+  ]
+}
