@@ -611,16 +611,16 @@
     for (let i = 0; i < caps.length; i++) {
       const next = caps[i + 1] ? caps[i + 1].start : 1e9;
       const endShow = Math.min(caps[i].end + 0.3, next);
-      if (t >= caps[i].start - 0.04 && t < endShow) { idx = i; break; }
+      if (t >= caps[i].start - 0.08 && t < endShow) { idx = i; break; }
     }
     if (idx !== lastCap) { capTxt.textContent = idx >= 0 ? caps[idx].text : ""; lastCap = idx; }
     if (idx < 0) { capEl.style.opacity = 0; capLine.style.opacity = 0; return; }
     const c = caps[idx];
     const next = caps[idx + 1] ? caps[idx + 1].start : 1e9;
     const endShow = Math.min(c.end + 0.3, next);
-    const pin = prog(t, c.start - 0.04, 0.28);
+    const pin = prog(t, c.start - 0.08, 0.16);
     const pout = endShow < 1e8 && next - c.end < 0.4 ? 0 : clamp((endShow - t) / 0.18);
-    capEl.style.opacity = Math.min(clamp(pin * 1.6), pout === 0 ? 1 : pout).toFixed(3);
+    capEl.style.opacity = Math.min(clamp(pin * 2.5), pout === 0 ? 1 : pout).toFixed(3);
     capTxt.style.transform = `translateY(${(1 - pin) * 26}px)`;
     capLine.style.opacity = 1;
     capFill.style.width = clamp((t - c.start) / Math.max(0.2, c.end - c.start)) * 220 + "px";
