@@ -1,14 +1,14 @@
 {
-  "brand": "MUN Alert",
+  "brand": "Elence Fragrance",
   "presenter": "Rizwan Talks",
-  "productName": "Babuni",
-  "productSubtitle": "Missing Child",
-  "website": "munalert.org",
+  "productName": "White Oud",
+  "productSubtitle": "Perfume Oil",
+  "website": "elencefragrance.com",
   "sync": "srt",
   "bgmVolume": 0.16,
-  "audio": "MissingChildAlert.wav",
-  "srt": "MissingChildAlert.srt",
-  "image": "MissingChildAlert.jpg",
+  "audio": "WhiteOud.wav",
+  "srt": "WhiteOud.srt",
+  "image": "WhiteOud.webp",
   "scenes": [
     {
       "type": "intro"
@@ -16,170 +16,178 @@
     {
       "type": "traits",
       "start": {
-        "text": "আজকের বিষয়টি"
+        "text": "আজকে"
       },
-      "heading": "Today's Topic",
-      "bn": "আজকের বিষয়",
+      "heading": "The Essence",
+      "bn": "দারুণ একটা কম্বিনেশন",
       "items": [
         {
-          "label": "Child Safety",
-          "bn": "নিরাপত্তা"
+          "label": "Freshness",
+          "bn": "ফ্রেশনেস্"
         },
         {
-          "label": "Family's Worry",
-          "bn": "দুশ্চিন্তা"
+          "label": "Woody Notes",
+          "bn": "উডি নোট"
         },
         {
-          "label": "Human Duty",
-          "bn": "মানবিক দায়িত্ব"
+          "label": "Elegance",
+          "bn": "এলিগ্যান্সের"
         }
       ]
-    },
-    {
-      "type": "statement",
-      "start": {
-        "cue": 8
-      },
-      "text": "MUN Alert-এর প্রকাশিত বিজ্ঞপ্তি"
     },
     {
       "type": "title",
       "start": {
-        "cue": 9
+        "text": "প্রোডাক্টটির"
       },
-      "kicker": "published a missing child notice",
       "revealAt": {
-        "text": "বাবুনী"
+        "text": "হোয়াইট ওড"
       }
     },
     {
-      "type": "statement",
+      "type": "notes",
       "start": {
-        "cue": 13
+        "text": "এর ঘ্রাণের শুরুতে"
       },
-      "text": "গাজীপুর — পঁয়ত্রিশ নম্বর ওয়ার্ড"
+      "level": "top",
+      "heading": "Top Notes",
+      "bn": "ঘ্রাণের শুরুতে",
+      "items": [
+        {
+          "label": "Fresh",
+          "bn": "ফ্রেশ",
+          "color": "#a9c24a"
+        },
+        {
+          "label": "Citrus",
+          "bn": "সাইট্রাস",
+          "color": "#f0d22e"
+        },
+        {
+          "label": "Saffron",
+          "bn": "জাফরানের",
+          "color": "#e2631b"
+        }
+      ]
     },
     {
-      "type": "statement",
+      "type": "notes",
       "start": {
-        "text": "শিশুটি বিশেষ"
+        "text": "এরপর কোমল"
       },
-      "text": "বিশেষ চাহিদাসম্পন্ন"
+      "level": "heart",
+      "heading": "Heart Notes",
+      "bn": "কোমল ফুলের ঘ্রাণ",
+      "items": [
+        {
+          "label": "Soft Florals",
+          "bn": "কোমল ফুলের",
+          "color": "#d6587f"
+        },
+        {
+          "label": "Creamy",
+          "bn": "ক্রিমি",
+          "color": "#f0dba2"
+        },
+        {
+          "label": "White Musk",
+          "bn": "হোয়াইট মাস্ক",
+          "color": "#efe7d8"
+        }
+      ]
+    },
+    {
+      "type": "notes",
+      "start": {
+        "text": "আর শেষের দিকে"
+      },
+      "level": "base",
+      "heading": "Base Notes",
+      "bn": "শেষের দিকে",
+      "items": [
+        {
+          "label": "Amber",
+          "bn": "অ্যাম্বার",
+          "color": "#d38a1c"
+        },
+        {
+          "label": "Vanilla",
+          "bn": "ভ্যানিলা",
+          "color": "#f0dba2"
+        },
+        {
+          "label": "Smooth Wood",
+          "bn": "স্মুথ",
+          "color": "#b98a5e"
+        }
+      ]
     },
     {
       "type": "character",
       "start": {
-        "cue": 17
+        "text": "তৈরি করে"
       },
-      "heading": "Very Important",
-      "bn": "অত্যন্ত গুরুত্বপূর্ণ",
+      "heading": "The Experience",
+      "bn": "ঘ্রাণের অভিজ্ঞতা",
       "items": [
         {
-          "label": "Awareness",
-          "bn": "সচেতনতা"
+          "label": "Warm",
+          "bn": "উষ্ণ"
         },
         {
-          "label": "Cooperation",
-          "bn": "সহযোগিতা"
-        }
-      ]
-    },
-    {
-      "type": "occasions",
-      "start": {
-        "cue": 19
-      },
-      "heading": "If You Are Nearby",
-      "bn": "ওই এলাকার আশপাশে",
-      "items": [
-        {
-          "label": "Look at the Poster",
-          "bn": "ভালোভাবে দেখুন"
+          "label": "Refined",
+          "bn": "পরিমার্জিত"
         },
         {
-          "label": "Recognize the Child",
-          "bn": "চিনতে পারলে"
-        },
-        {
-          "label": "Reliable Information",
-          "bn": "নির্ভরযোগ্য তথ্য"
-        },
-        {
-          "label": "Inform the Authorities",
-          "bn": "কর্তৃপক্ষকে জানান"
-        }
-      ]
-    },
-    {
-      "type": "occasions",
-      "start": {
-        "cue": 24
-      },
-      "heading": "Contact",
-      "bn": "জরুরি যোগাযোগ",
-      "items": [
-        {
-          "label": "Call 13219",
-          "bn": "এক তিন দুই এক নয়"
-        },
-        {
-          "label": "Report at munalert.org",
-          "bn": "munalert.org"
+          "label": "Experience",
+          "bn": "অভিজ্ঞতা"
         }
       ]
     },
     {
       "type": "traits",
       "start": {
-        "cue": 28
+        "text": "আপনি যদি"
       },
-      "heading": "Before You Share",
-      "bn": "শেয়ার করার সময়",
+      "heading": "Prefer Less Sweet?",
+      "bn": "ফ্রেশ, উডি আর এলিগেন্ট ঘ্রাণ",
       "items": [
         {
-          "label": "Verify First",
-          "bn": "যাচাই"
+          "label": "Fresh",
+          "bn": "ফ্রেশ"
         },
         {
-          "label": "Child's Safety",
-          "bn": "নিরাপত্তা"
+          "label": "Woody",
+          "bn": "উডি"
         },
         {
-          "label": "Family's Privacy",
-          "bn": "গোপনীয়তা"
+          "label": "Elegant",
+          "bn": "এলিগেন্ট"
         }
       ]
     },
     {
-      "type": "character",
+      "type": "statement",
       "start": {
-        "cue": 32
+        "text": "আর এর দাম"
       },
-      "heading": "How You Can Help",
-      "bn": "খুঁজে পেতে সাহায্য",
-      "items": [
-        {
-          "label": "Aware Share",
-          "bn": "সচেতন শেয়ার"
-        },
-        {
-          "label": "Right Info",
-          "bn": "সঠিক তথ্য"
-        },
-        {
-          "label": "Phone Call",
-          "bn": "ফোনকল"
-        }
-      ]
+      "text": "মাত্র ৪২০ টাকা থেকে"
+    },
+    {
+      "type": "statement",
+      "start": {
+        "text": "সাইজ ও বর্তমান"
+      },
+      "text": "ভিজিট করুন এলেন্স ফ্র্যাগন্যান্সের ওয়েবসাইটে"
     },
     {
       "type": "cta",
       "start": {
-        "cue": 35
+        "text": "এবার আপনার পালা"
       },
-      "headline": "Help Find Babuni",
-      "line": "Call 13219",
-      "button": "Report at munalert.org"
+      "headline": "Your Turn",
+      "line": "Fresh Citrus or Woody Oud?",
+      "button": "Tell us in the comments"
     }
   ]
 }
